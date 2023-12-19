@@ -1,13 +1,18 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { Navbar, Hero, Highlights, Testimonials, About, Footer } from "./compoenets"
 
 const App = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <FontAwesomeIcon icon={faGithub} className="icon" />
-        </div>
+        <>
+            <Navbar />
+            {/* <Hero />
+            <Highlights />
+            <Testimonials />
+            <About />
+            <Footer /> */}
+        </>
     )
 }
 

@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "karla", sans-serif;
+}
+
+.border_bottom li {
+    border-bottom: 1px solid #0f0f0f;
+}
