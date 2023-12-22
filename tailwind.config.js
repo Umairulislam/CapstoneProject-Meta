@@ -9,6 +9,15 @@ export default {
             lg: "1024px",
             xl: "1220px",
         },
+        fontSize: {
+            sm: "16px",
+            base: "18px",
+            lg: "20px",
+            xl: "24px",
+            "2xl": "32px",
+            "3xl": "40px",
+            "4xl": "64px",
+        },
         extend: {
             colors: {
                 primary1: "#495E57",
@@ -17,6 +26,7 @@ export default {
                 secondary2: "#FBDABB",
                 tertiary1: "#EDEFEE",
                 tertiary2: "#333333",
+                tertiary3: "#D9D9D9",
             },
         },
     },

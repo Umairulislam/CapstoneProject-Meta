@@ -1,18 +1,19 @@
 import React from "react"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { Navbar, Hero, Highlights, Testimonials, About, Footer } from "./compoenets"
+import { Home, Footer, Reservations, Navbar, Order, Login } from "./components"
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 const App = () => {
     return (
-        <>
+        <Router>
             <Navbar />
-            {/* <Hero />
-            <Highlights />
-            <Testimonials />
-            <About />
-            <Footer /> */}
-        </>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/reservations" element={<Reservations />} />
+                <Route path="/order" element={<Order />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
+            <Footer />
+        </Router>
     )
 }
 
