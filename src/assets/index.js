@@ -4,6 +4,8 @@ import restauranfood from "./restauranfood.jpg"
 import greeksalad from "./greeksalad.jpg"
 import bruchetta from "./bruchetta.jpg"
 import lemondessert from "./lemondessert.jpg"
+import caesarsalad from "./caesarsalad.jpg"
+import chocolatesdessert from "./chocolatesdessert.jpg"
 import avatar1 from "./avatar1.jpg"
 import avatar2 from "./avatar2.jpg"
 import avatar3 from "./avatar3.jpg"
@@ -42,6 +44,8 @@ export {
     greeksalad,
     bruchetta,
     lemondessert,
+    caesarsalad,
+    chocolatesdessert,
     avatar1,
     avatar2,
     avatar3,

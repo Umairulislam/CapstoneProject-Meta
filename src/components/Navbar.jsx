@@ -3,7 +3,6 @@ import { logo, faBarsStaggered, faXmark } from "../assets"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
 
-
 const Navbar = () => {
     const [openMenu, setOpenMenu] = React.useState(false)
     const toggleMenu = () => setOpenMenu(!openMenu)
@@ -19,7 +18,7 @@ const Navbar = () => {
             </div>
 
             {!openMenu ? (
-                <ul className="hidden lg:flex justify-evenly items-center gap-10 text-base font-medium">
+                <ul className="hidden lg:flex justify-evenly items-center gap-10 text-base font-medium navbar_item">
                     <Link to="/">
                         <li>Home</li>
                     </Link>
@@ -40,7 +39,7 @@ const Navbar = () => {
                     </Link>
                 </ul>
             ) : (
-                <ul className="absolute flex justify-center items-center flex-col gap-5 top-14 text-sm border_bottom bg-white w-full h-full opacity-80 ">
+                <ul className="absolute flex justify-center items-center flex-col gap-5 top-14 text-sm border_bottom bg-white w-full h-full opacity-80 navbar_item">
                     <Link to="/" onClick={toggleMenu}>
                         <li>Home</li>
                     </Link>

@@ -25,7 +25,7 @@ const LoginMenu = () => {
     }
 
     return (
-        <main>
+        <main className="xs:p-4 md:p-12 bg-tertiary1">
             <section>
                 <img
                     src={login}
@@ -34,7 +34,7 @@ const LoginMenu = () => {
                 />
             </section>
 
-            <div className="mx-auto mt-10 lg:w-1/3 p-4 bg-tertiary1 rounded-md shadow-md">
+            <div className="mx-auto mt-10 lg:w-1/3 p-4 bg-white ounded-md shadow-md">
                 {loggedIn ? (
                     <p className="text-tertiary2 font-semibold">Welcome, {credentials.username}!</p>
                 ) : (
@@ -63,7 +63,7 @@ const LoginMenu = () => {
 
                         <button
                             onClick={handleLogin}
-                            className="w-full bg-primary2 text-white py-2 rounded-md hover:bg-secondary2"
+                            className="py-1.5 w-full  bg-primary2 hover:bg-primary1 hover:text-tertiary1 rounded-2xl font-bold"
                         >
                             Login
                         </button>

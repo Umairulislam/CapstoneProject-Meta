@@ -6,17 +6,23 @@ const Highlights = () => {
     return (
         <main id="menu" className="xs:p-4 md:p-16">
             <section className="flex xs:justify-evenly md:justify-between items-center gap-2 flex-wrap px-8">
-                <h1 className="xs:text-xl md:text-2xl lg:text-3xl text-tertiary2">This weeks specials!</h1>
+                <h1 className="xs:text-xl md:text-2xl lg:text-3xl text-tertiary2">
+                    This weeks specials!
+                </h1>
                 <button className="px-8 py-1.5  bg-primary2 hover:bg-primary1 hover:text-tertiary1 rounded-2xl font-bold">
                     Online menu
                 </button>
             </section>
             <section className="flex justify-around gap-10 flex-wrap pt-10">
                 <div className="w-[300px] bg-tertiary1">
-                    <div className="w-full h-[150px] object-cover">
-                        <img src={greeksalad} alt="greeksalad" />
+                    <div className="w-full h-[200px] ">
+                        <img
+                            src={greeksalad}
+                            alt="greeksalad"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
-                    <div className="flex flex-col gap-5 mt-20 p-4">
+                    <div className="flex flex-col gap-5  p-4">
                         <div className="flex justify-between items-center">
                             <h1 className="font-bold text-tertiary2">Greek Salad</h1>
                             <p className="text-secondary1 font-bold">$10.99</p>
@@ -35,10 +41,14 @@ const Highlights = () => {
                     </div>
                 </div>
                 <div className="w-[300px] bg-tertiary1">
-                    <div className="w-full h-[150px] object-cover">
-                        <img src={bruchetta} alt="bruchetta" />
+                    <div className="w-full h-[200px] ">
+                        <img
+                            src={bruchetta}
+                            alt="bruchetta"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
-                    <div className="flex flex-col gap-5 mt-20 p-4">
+                    <div className="flex flex-col gap-5  p-4">
                         <div className="flex justify-between items-center">
                             <h1 className="font-bold text-tertiary2">Bruschetta</h1>
                             <p className="text-secondary1 font-bold">$12.99</p>
@@ -46,7 +56,8 @@ const Highlights = () => {
                         <div className="w-[210px]">
                             <p className=" text-primary1">
                                 Our Bruschetta is made from grilled bread that has been smeared with
-                                garlic and seasoned with salt and olive oil and topped with tomatoes.
+                                garlic and seasoned with salt and olive oil and topped with
+                                tomatoes.
                             </p>
                         </div>
                         <div className="flex  items-baseline gap-4 cursor-pointer">
@@ -56,10 +67,14 @@ const Highlights = () => {
                     </div>
                 </div>
                 <div className="w-[300px] bg-tertiary1">
-                    <div className="w-full h-[150px] object-cover">
-                        <img src={lemondessert} alt="lemondessert" />
+                    <div className="w-full h-[200px] ">
+                        <img
+                            src={lemondessert}
+                            alt="lemondessert"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
-                    <div className="flex flex-col gap-5 mt-20 p-4">
+                    <div className="flex flex-col gap-5  p-4">
                         <div className="flex justify-between items-center">
                             <h1 className="font-bold text-tertiary2">Lemon Dessert</h1>
                             <p className="text-secondary1 font-bold">$13.50</p>

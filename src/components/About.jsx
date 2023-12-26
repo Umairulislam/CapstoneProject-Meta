@@ -4,7 +4,7 @@ import { marioadrian1, marioadrian2 } from "../assets"
 const About = () => {
     return (
         <main id="about" className="xs:p-4 md:p-12 flex xs:flex-col xl:flex-row justify-around items-center flex-wrap gap-20">
-            <section className="flex justify-center flex-col items-start gap-5 w-[420px]">
+            <section className="flex justify-center flex-col items-start gap-5 md:w-[420px] xs:w-full">
                 <div className="text-primary1">
                     <h1 className="markazi_text font-medium xs:text-2xl md:text-3xl lg:text-4xl leading-10">
                         Little Lemon
