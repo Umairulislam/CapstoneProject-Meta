@@ -1,6 +1,7 @@
 import React from "react"
 import { greeksalad, bruchetta, lemondessert, faPersonBiking } from "../assets"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "react-router-dom"
 
 const Highlights = () => {
     return (
@@ -9,9 +10,11 @@ const Highlights = () => {
                 <h1 className="xs:text-xl md:text-2xl lg:text-3xl text-tertiary2">
                     This weeks specials!
                 </h1>
-                <button className="px-8 py-1.5  bg-primary2 hover:bg-primary1 hover:text-tertiary1 rounded-2xl font-bold">
-                    Online menu
-                </button>
+                <Link to="/order">
+                    <button className="px-8 py-1.5  bg-primary2 hover:bg-primary1 hover:text-tertiary1 rounded-2xl font-bold">
+                        Online menu
+                    </button>
+                </Link>
             </section>
             <section className="flex justify-around gap-10 flex-wrap pt-10">
                 <div className="w-[300px] bg-tertiary1">

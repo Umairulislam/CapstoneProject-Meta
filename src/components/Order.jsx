@@ -83,7 +83,7 @@ const Order = () => {
                         </div>
                         <div
                             className="flex  items-baseline gap-4 cursor-pointer"
-                            onClick={() => handleOrder({ name: "Greek Salad", price: 10.99 })}
+                            onClick={() => handleOrder({ name: "Caeser salad", price: 12.99 })}
                         >
                             <h1 className="font-bold text-tertiary2">order a dilevery</h1>
                             <FontAwesomeIcon icon={faPersonBiking} />
@@ -116,7 +116,7 @@ const Order = () => {
                         </div>
                         <div
                             className="flex items-center gap-4 cursor-pointer"
-                            onClick={() => handleOrder({ name: "Greek Salad", price: 10.99 })}
+                            onClick={() => handleOrder({ name: "Lemon Dessert", price: 8.0 })}
                         >
                             <h1 className="font-bold text-tertiary2">order a dilevery</h1>
                             <FontAwesomeIcon icon={faPersonBiking} />
@@ -144,7 +144,7 @@ const Order = () => {
                         </div>
                         <div
                             className="flex  items-baseline gap-4 cursor-pointer"
-                            onClick={() => handleOrder({ name: "Greek Salad", price: 10.99 })}
+                            onClick={() => handleOrder({ name: "Chocolate Delight", price: 6.99 })}
                         >
                             <h1 className="font-bold text-tertiary2">order a dilevery</h1>
                             <FontAwesomeIcon icon={faPersonBiking} />
@@ -153,7 +153,7 @@ const Order = () => {
                 </div>
             </section>
             <section className="bg-white md:m-10 sm:m-5 p-10 flex justify-center items-center flex-col">
-            <h1 className="flex mb-4 xs:text-xl md:text-2xl lg:text-3xl text-tertiary2">
+                <h1 className="flex mb-4 xs:text-xl md:text-2xl lg:text-3xl text-tertiary2">
                     Your Order
                 </h1>
                 {orderItems.length === 0 ? (

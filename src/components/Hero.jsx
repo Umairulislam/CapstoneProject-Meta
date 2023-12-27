@@ -1,5 +1,6 @@
 import React from "react"
 import { restauranfood } from "../assets"
+import { Link } from "react-router-dom"
 
 const Hero = () => {
     return (
@@ -18,9 +19,11 @@ const Hero = () => {
                     classic cocktails in a lively but casual environment. The restaurant features a
                     locally-sourced menu with daily specials.
                 </p>
-                <button className="px-8 py-1.5  bg-primary2 hover:bg-tertiary1 rounded-2xl font-bold">
-                    Reserve a table
-                </button>
+                <Link to="/reservations">
+                    <button className="px-8 py-1.5  bg-primary2 hover:bg-tertiary1 rounded-2xl font-bold">
+                        Reserve a table
+                    </button>
+                </Link>
             </section>
             <section className="w-[420px] h-[456px]">
                 <img
