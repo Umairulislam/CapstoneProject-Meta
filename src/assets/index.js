@@ -25,6 +25,7 @@ import {
     faLocationDot,
     faPhone,
     faEnvelope,
+    faCircleCheck
 } from "@fortawesome/free-solid-svg-icons"
 
 import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
@@ -35,6 +36,7 @@ export {
     faLocationDot,
     faPhone,
     faEnvelope,
+    faCircleCheck,
     faFacebook,
     faInstagram,
     faTwitter,
